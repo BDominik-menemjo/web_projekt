@@ -1,13 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body{
+body {
     font-family: "Open Sans", sans-serif;
     background-color: #f8f9fa;
 }
 
-.navbar{
-    background-color: #00204a;  
+.navbar {
+    position: absolute;
 }
 
-.navbar-brand{
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link, .navbar-brand {
+    color: #f8f9fa;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.nav-link.active {
+    color: #00bbf0;
+}
+
+.header {
+    background-image: url("../assets/hero-bg.png");
+    padding-top: 56px;
+    background-repeat: round;
+    background-size: cover;
+    height: 600px;
+    padding: 130px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sliderkep {
+    width: 400px;
+    height: 400px;
+}
+
+.szoveg {
+    color: #f8f9fa;
+}
+
+.btn1 {
+
+    padding: 10px 15px;
+    background-color: #00bbf0;
+    color: #f8f9fa;
+    border-radius: 0;
+}
+
+.kozep {
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+    background-color: #e4e4e4;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin: 20px;
+}
+
+.gombos {
+    text-align: center;
+    margin: 15px;
+}
+
+.cards {
+    text-align: center;
+}
+
+h2, p {
+    margin: 10px;
+}
+
+.ourServices {
+    margin-bottom: 15px;
+}
+
+.blue {
+    color: #00bbf0;
+    text-decoration: none;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #00204a;
+}
+
+.card-img-top {
+    width: 100px;
+    height: 100px;
+}
+
+.aboutus {
+    background-color: #00204a;
+    color: #f8f9fa;
+}
+
+.aboutimg {
+    width: 530px;
+    height: 500px;
 }
